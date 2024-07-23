@@ -1,2 +1,2 @@
 # tap2track
-This project is to create a website for managing financial expenses
+ A website that  is used for financial expenses
