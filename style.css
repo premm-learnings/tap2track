@@ -1,7 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap'); */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Grey+Qo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=Platypi:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Whisper&family=Young+Serif&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,18 +9,19 @@
 }
 body{
     /* background-image: url('https://img.freepik.com/free-vector/abstract-realistic-particle-background_23-2148409681.jpg?size=626&ext=jpg'); */
-    background-image: url('https://img.freepik.com/free-vector/dark-wavy-colors-background_23-2148403785.jpg?w=1060&t=st=1721750038~exp=1721750638~hmac=426a15c0acbba410d01b0c66ee8bf34c07b7165562c494c7ac6047845ab794fd');
-    /* background-color: blueviolet; */
+    background-color: #310e68;
+    background-image: linear-gradient(316deg, #310e68 0%, #4c0c34 74%);
     background-size: cover; 
     background-repeat:repeat-y;
     background-position: center;
 }
 .nav{
    color: white;
-   font-family: Lato,poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   padding: 10px 90px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   padding: 15px 50px;
    font-size: 50px;
-   background-color: rgba(0, 0, 0, .2);
+  
    border-radius: 10px;
    /* box-sizing: border-box; */
 }
@@ -31,21 +32,26 @@ body{
    width: 100%;
    display: flex;
    justify-content: end;
-   align-items: center;
+   align-items: end;
    padding: 5px;
 }
 
 .list{
     display: flex;
     list-style: none;
-    font-size:25px;
+    font-size:19px;
     justify-content:end;
+    align-items: end;
     gap:40px;
 
 }
 .list:hover{
     cursor: pointer;
 }
+.list-items:hover, .active {
+    padding-bottom: 4px;
+}
+
 .container{
     padding: 100px 150px;
     display: flex;
@@ -57,18 +63,19 @@ body{
 
 .container div{
  color: white;
- font-family: "Josefin Sans", sans-serif;
- font-size: 30px;
+ font-family: "Dancing Script", cursive;
+ font-size: 40px;
  display: flex;
  align-items: center;
  justify-content: end;
+ padding-left: 250px;
 
 }
 #para p{
     color: white;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     word-spacing: 3px;
-    font-size: 25px;
+    font-size: 15px;
     /* line-height: 30px; */
     padding: 30px 15px 100px 40px;
 }
@@ -86,3 +93,4 @@ footer{
     color: white;
     scroll-behavior: smooth;
 }
+
